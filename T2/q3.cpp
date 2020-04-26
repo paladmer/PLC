@@ -17,7 +17,7 @@
 	}
 
 	void test_heapFunc(void){
-		 int *c = (int *) malloc (100 *sizeof(int)); 
+		 int *ArrayD = (int *) malloc (100 *sizeof(int)); 
 	}
 
 main(void){
