@@ -1,4 +1,7 @@
 import java.util.*;
+import java.io.IOException;  
+import java.io.RandomAccessFile;  
+
 public class front{
 	/*** Variables */
 	public static int charClass;
@@ -14,7 +17,7 @@ public class front{
 	public static int nextToken;
 
 
-
+    public static RandomAccessFile inFp;
      public static void main(String []args){
        
      }
