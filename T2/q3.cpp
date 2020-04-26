@@ -20,7 +20,7 @@
 		 int *ArrayD = (int *) malloc (100 *sizeof(int)); 
 	}
 
-main(void){
+    main(void){
     struct timespec firsttime, secondtime;
 	
 	
