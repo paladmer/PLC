@@ -13,16 +13,6 @@ public class front{
 
 	public static int nextToken;
 
-	/** * Function declarations */
-	public static native int lookup(byte ch);
-
-	public static native void addChar();
-
-	public static native void getChar();
-
-	public static native void getNonBlank();
-
-	public static native int lex();
 
 
      public static void main(String []args){
