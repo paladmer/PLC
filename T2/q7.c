@@ -17,6 +17,14 @@ int main(){
         printf("false A is not greater than B: %d > %d >%d \n",a,b,c);
     }
     
+      // alternative way
+    if(a>b && b>c){ 
+        printf("true,%d > %d > %d \n",a,b,c); // means A>B>C 
+    } else { 
+        printf("false%d > %d >%d \n",a,b,c);
+    }
+    
+    
     // but if you wrote it verbatim 
     if (a>b>c){
         printf("Verbatim Version: true,%d > %d > %d \n",a,b,c); // means A>B>C 
