@@ -13,8 +13,15 @@ sub dynamic_func{
                  return function1();  
                 } 
         
- #Static
- 
-    
+ #Static aka lexical scoping.
+ #my is only visible in current subrountine.
+ sub static_func{  
+                 # my indicates static scoping.  
+                 my $dogs= 300;  
+                 return function1();  
+                } 
+        
+
     
 print dynamic_func()." dogs availible (Dynamic Scope)\n"; 
+print static_func()." dogs availible (Static Scope)\n"; 
