@@ -36,7 +36,7 @@ for (begin = 1 ; begin <=attempts ; begin++) { // Start of begin FOR Loop
 	
 			  System.out.println("Enter a floating point literal: ");
 			  String float_lit = console.nextLine();
-			  Pattern pattern = Pattern.compile("[+-]?([0-9]*[.])?[0-9]+[fFlL]?"); // the Rule 
+			  Pattern pattern = Pattern.compile("[+-]?([0-9]*[.])?[0-9]+[fFlL]?[+]?[eE]?[0-9]?"); // the Rule 
 		 
 			  
 		  	  Matcher check = pattern.matcher(float_lit); // What is being checked against the rule
@@ -45,7 +45,7 @@ for (begin = 1 ; begin <=attempts ; begin++) { // Start of begin FOR Loop
 		  	  	   if (result == true) {
 		  	  		   
 		  	  		   		
-		  	  		   		// prints out the valid numbers like 100f	
+		  	  		   	/**	// prints out the valid numbers like 100f	
 		  	  		   		if (!float_lit.contains(".")) {
 		  	  		   			System.out.println("Valid float point Literal: "  + float_lit); 
 		  	  		   		}
@@ -60,9 +60,9 @@ for (begin = 1 ; begin <=attempts ; begin++) { // Start of begin FOR Loop
 					  			System.out.println("Valid float point Literal: "  +  float_lit);
 					  		} else {
 					  			
-					  		}
+					  		} Uncomment for Java Specific.**/ 
 					  		
-					  		
+					 System.out.println("Valid float point Literal: "  +  float_lit); 		
 					  		
 				  	// Invalid such as ASDASDJA and such	
 				  	} else {
