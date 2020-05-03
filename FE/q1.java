@@ -36,7 +36,7 @@ for (begin = 1 ; begin <=attempts ; begin++) { // Start of begin FOR Loop
 	
 			  System.out.println("Enter a floating point literal: ");
 			  String float_lit = console.nextLine();
-			  Pattern pattern = Pattern.compile("[+-]?([0-9]*[.])?[0-9]+[fFlL]?[+]?[eE]?[0-9]?"); // the Rule 
+			  Pattern pattern = Pattern.compile("[+-]?([0-9]*[.])?[0-9]+[fFlL]?[+]?[eE]?[0-9]*"); // the Rule 
 		 
 			  
 		  	  Matcher check = pattern.matcher(float_lit); // What is being checked against the rule
