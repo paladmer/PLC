@@ -8,7 +8,7 @@ public class q1 {
 	
 	  public static void main(String[] args) {
 		  
-		  System.out.println("This is based on the programming language of Java.\n"
+		  System.out.println("This is the code for question 1.\n"
 		  		+ "It's meant to check your input and recognize it as either a \n"
 		  		+ "floating point literal, integer literal, string literal, or variable name. \n \n"
 		  				   + "Select a method from below by choosing a letter.\n"
