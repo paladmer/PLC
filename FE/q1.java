@@ -158,7 +158,7 @@ for (begin = 1 ; begin <=attempts ; begin++) { // Start of begin FOR Loop
 	 String answer="";  // to hold the Final Answer of valid or Not
 	 
 	 /* This checks whether the string literal inputed is valid or not.
-	  * If the string literal equals a keyword, the check becomes True indicating
+	  * If the variable literal equals a keyword, the check becomes True indicating
 	  * that the question "Is the string literal an array keyword?" is YES. (or in this case "True).
 	  * If TRUE/YES, then that means the variable name is invalid */
 	 
