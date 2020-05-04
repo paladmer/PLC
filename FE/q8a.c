@@ -1,26 +1,40 @@
 // question 8 Rewrite it using no goto or breaks. 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 int main()
 {
-   int i ; int j; 
+   int i ; int j; bool flag = false; 
    j = -3; 
    for (i = 0; i < 3; i++) { 
     
        switch (j + 2) { 
       
            case 3: 
-           case 2: j--; 
-                 exit(0); 
+           case 2: j--;
+                  flag = true;
+                  if (flag == true){
+                     continue; 
+                  }
+                  
+                 
            case 0: j += 2;
-                 exit(0); 
+                  flag = true;
+                  if (flag == true){
+                     continue; 
+                  } 
            default: j = 0; 
 
            
        } 
-           if (j > 0) exit(0);  
+           if (j > 0) 
+                  flag = true;
+                  if (flag == true){
+                     continue; 
+                  }
            j = 3 - i; 
+         //  printf("%d \n", j );
          
    }
 
