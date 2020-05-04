@@ -1,4 +1,5 @@
-// question 8 Rewrite it using no goto or breaks. 
+// question 8 Rewrite it using no goto or breaks.
+// Merizka Palad Final Exam
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
