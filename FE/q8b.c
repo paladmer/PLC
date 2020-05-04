@@ -1,4 +1,6 @@
 // question 8b Rewrite it using if and goto in C
+/** Merizka Palad
+ * PLC_Final Exam Q8B**/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
