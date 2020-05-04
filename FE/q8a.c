@@ -1,5 +1,6 @@
 // question 8 Rewrite it using no goto or breaks.
-// Merizka Palad Final Exam
+/** Merizka Palad
+ * PLC_Final Exam Q8A**/
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
