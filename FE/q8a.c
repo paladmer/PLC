@@ -32,12 +32,12 @@ int main()
       switch (j + 2) { 
            case 3: 
            case 2: j--; 
-                 exit(0); 
+                 break; 
            case 0: j += 2;
-                 exit(0); 
+                 break; 
            default: j = 0; 
        } 
-           if (j > 0) exit(0);  
+           if (j > 0) break;  
            j = 3 - i; 
    }
 
