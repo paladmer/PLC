@@ -1,0 +1,49 @@
+8d) /* Operational Semantics */ 
+
+
+	for ( conditional statement == "met" ) {
+		List of Statements: 
+			go to Switchcase; 
+			
+		
+	}
+	
+		Switchcase (expression/conditional statement such as 3 | 2 | 0):
+			List of Statements: 
+					case 3: 
+						 List of Statements; 
+						 goto case 2: 
+					case 2: 
+						 List of Statements; 
+						 goto FinalExit:
+					case 0:
+						 List of Statements; 
+						 goto FinalExit: 
+					default: 
+						 List of Statements;
+						 goto Exit:
+	
+					
+		Exit: // Gets out of Switchcase clause
+			if (conditional statement = "met") go to FinalExit:
+			List of Statements; 
+			gotoFinalExit: 
+		
+	FinalExit: // Gets out of entire for loop
+
+The variable "j" holds a negative integer value of -3. The for loop operates until
+the condition becomes false. The for loop contains a variable called "i" which holds
+the value of 0. The "i<3" is a conditional statement that iterates until the statement
+becomes false. If the conditional statement is still true, it runs the list of statements
+within the for loop. The switch case is activated. The expression within the switch case's
+parenthesis is evaluated. If it is met, then it searches for the matching case. Once the 
+matching case is located, it executes the list of statements within that case.Afterwards, 
+it exits the switchcase and then it goes to the for loop and iterates. 
+Then the process starts again until the for loop's conditional statement is false or unmet.  
+
+
+
+
+  
+
+
